@@ -1,17 +1,17 @@
-import './App.scss'
-import { Route, Routes } from 'react-router-dom'
-import Layout from './componente/Layout'
-import Sidebar from './componente/Sidebar'
+import React from 'react';
+import './App.module.scss';
+import BaseLayout from "./components/BaseLayout";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
-  return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />} />
-        <Route path="/" element={<Sidebar />} />
-      </Routes>
-    </>
-  )
+   return (
+      <div>
+         <BrowserRouter>
+            <BaseLayout/>
+         </BrowserRouter>
+      </div>
+   );
 }
 
-export default App
+
+export default App;
