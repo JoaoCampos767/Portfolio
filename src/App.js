@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/App.module.scss";
+import "./styles/components/home/EmojiBullet/_main.scss";
 import BaseLayout from "./components/BaseLayout";
 import { BrowserRouter } from "react-router-dom";
 
