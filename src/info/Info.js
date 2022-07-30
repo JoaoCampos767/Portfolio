@@ -55,7 +55,8 @@ export const info = {
       label: "linkedin",
     },
   ],
-  bio: "Ola, Sou o Joao Pedro...",
+  bio: "Ola, Sou o Joao Pedro Piai de Campos estou inteirado na área da tecnologia desde 2016, profissionalmente com mais de 4 anos de experiência em Desenvolvimento de Software e conhecimento em Banco de Dados. Sempre que tenho tempo livre estudo coisas novas principalmente voltado ao desenvolvimento Web."+
+       "Por conta disso gostaria muito de atuar na programação de sistemas em JavaScript, Node.js, React, Banco de Dados em geral, e qualquer outra ferramenta Web.",
   skills: {
     proficientWith: [
       "javascript",
